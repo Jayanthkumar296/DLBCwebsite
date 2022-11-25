@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="Width=device-width, initial-scale=1.0">
+    <title>DLBC</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!---navbar-->
+    <nav class="navbar">
+        <h1 class="logo">DLBC</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#c2">Clubs</a></li>
+            <li><a href="https://bullayyacollege.org">About College</a></li>
+            <li class="ctn"><a href="#c1">Contact</a></li>
+
+        </ul>
+        <img src="./img/menu.jpg" alt="" class="menu-btn"></img>
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Dr.Lankapalli Bullayya College </h2>
+            <div class="line"></div>
+            <h1>Engineering</h1>
+            <a href="https://bullayyacollege.org" class="ctn">Learn more</a>
+        </div>
+    </header>
+    <!-----events---->
+    <section class="events">
+        <div class="title">
+            <h2> UPDATES </h2>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/exam22.jpeg" alt="imageexam">
+                <h2>Semester Exams</h2>
+                <pre><h4>All the students of B.E/B.Tech 2nd,3rd,4th 
+year are hereby informed that the college 
+dues/fee payment for the academic year
+2022-23.
+                </h4></pre>
+                
+            </div>
+            <div class="col">
+                <img src="./img/ball.jpeg" alt="volleyball">
+                <h2>AU sports selections</h2>              <!-- == change code == ------------------------------------------->
+                <pre><h4>Andhra University Inter-Collegiate-cum-
+University selections 2022-2023.
+The Players should report at the venue with
+the necessary eligibility.
+</h4></pre>
+                
+                
+                    
+                
+            </div>
+        </div>
+    </section> 
+    <section class="exlpore">
+        <div class="explore-content">
+           <h1>EXPLORE THE COLLEGE</h1>
+           <div class="line"></div>  
+           <P><h4>Pg,Engineering,Degree,Inter.</h4></P>
+           <p></p>
+           <a href="https://www.google.com/search?q=dlbc+college+images&client=ms-android-xiaomi-rev1&prmd=inv&sxsrf=ALiCzsbP4-hoME9H1YTr3MVcoF-wdGSQCA:1669404841059&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj2k6bUicr7AhU8ErcAHURTCGoQ_AUoAXoECAEQAQ&biw=393&bih=780&dpr=2.75" class="ctn">Learn More</a>
+        </div>
+
+</section>
+<section class="tours">
+    <div class="row">
+        <div class="col content-col">
+            <h1 id="c2">CLUBS of DLBC</h1>
+            <div class="line"></div>
+            <p><h4>DLBC consists of various clubs which are useful to increase the knowledge of students and enhance the students by their practical experiences.</h4></p>
+            <a href="#" class=" 'ctn">Learn more</a>
+        </div>
+        <div class="col image-col">
+            <div class="image-gallery">
+                <a href="https://gdsc.community.dev/dr-lankapalli-bullayya-college-of-engineering-visakhapatnam/"><img src="./img/gdsc.jpg" alt="gdscimage"></a>
+                <a href="https://WWW.rotary.org"><img src="./img/racc.jpg" alt=""></a>
+                <img src="./img/book.jpg" alt="bookclubimage">
+                <img src="./img/green.jpg"alt="bookclubimage">
+            </div> 
+        </div>
+    </div>
+</section>
+<section class="footer">
+    <p id="c1"><h4>#52-14-75, New Resapuvanipalam-530 013 | cont no:0891 2703293</p>
+    <p><a href="mailto:dlbcecollege@gmail.com"><h4>dlbcecollege@gmail.com</h4></a></p>
+</section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
